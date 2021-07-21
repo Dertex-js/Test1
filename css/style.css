@@ -21,22 +21,32 @@ ul, li {
     margin: 0 auto;
 }
 
+header {
+    margin-bottom: 53px;
+}
+
 header a {
     color: #000000;
 }
 
 .navbar {
+    height: 49px;
     display: flex;
     border-bottom: black 1px solid;
 }
 
 .navbar h1 {
-    tab-size: 30px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
 }
 
 .menu {
     display: flex;
     margin-left: auto;
+    padding: 0;
 }
 
 .menu li {
@@ -49,5 +59,58 @@ header a {
 
 .menu li a {
     text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
 }
 
+.section {
+
+}
+
+.offer {
+    display: flex;
+    width: 949px;
+}
+
+.offer-text h2 {
+    margin-top: 51px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.offer-text p {
+    margin-top: 12px;
+    ont-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    width: 528px;
+}
+
+.buttons {
+    margin-top: 21px;
+    display: flex;
+}
+
+.button1 {
+    background-color: #09936F;
+    width: 172px;
+    height: 37px;
+}
+
+.button2 {
+    background-color: #FFCC51;
+    width: 194px;
+    height: 37px;
+    margin-left: 14px;
+}
+
+.offer-img {
+    margin-left: auto;
+}
