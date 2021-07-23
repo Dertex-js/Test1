@@ -99,34 +99,35 @@ header a {
     display: flex;
 }
 
-.buttons p {
+.buttons a {
+    text-decoration: none;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
-    margin: 8px 20px 8px 20px;
+    padding: 8px 20px 8px 20px;
 }
 
 .button1 {
     background-color: #09936F;
-    width: 172px;
-    height: 37px;
+    width: 132px;
+    height: 21px;
 }
 
 .button2 {
     background-color: #FFCC51;
-    width: 194px;
-    height: 37px;
+    width: 154px;
+    height: 21px;
     margin-left: 14px;
 }
 
 .button3 {
     margin: 0 auto;
     background-color: #09936F;
-    width: 172px;
-    height: 37px;
+    width: 132px;
+    height: 21px;
 }
 
 .offer-img {
@@ -209,6 +210,8 @@ header a {
 }
 
 .text h1 {
+    display: inline-block;
+    margin-top: 50px;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
@@ -217,4 +220,28 @@ header a {
     color: #FFFFFF;
     width: 80px;
     height: 50px;
+}
+
+.text p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 396px;
+    margin-bottom: 15px;
+}
+
+.social ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-bottom: 95px;
 }
